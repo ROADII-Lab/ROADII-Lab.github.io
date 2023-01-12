@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/TRIMS-HOME/static/css/main.073c9b0a.css",
-    "main.js": "/TRIMS-HOME/static/js/main.ed11fe62.js",
+    "main.css": "/TRIMS-HOME/static/css/main.7cad5363.css",
+    "main.js": "/TRIMS-HOME/static/js/main.810c6295.js",
     "static/js/787.8efd8012.chunk.js": "/TRIMS-HOME/static/js/787.8efd8012.chunk.js",
+    "static/media/us-department-of-transportation-1.svg": "/TRIMS-HOME/static/media/us-department-of-transportation-1.2b1f8358ba51ed04f3c498e033aae506.svg",
     "index.html": "/TRIMS-HOME/index.html",
-    "main.073c9b0a.css.map": "/TRIMS-HOME/static/css/main.073c9b0a.css.map",
-    "main.ed11fe62.js.map": "/TRIMS-HOME/static/js/main.ed11fe62.js.map",
+    "main.7cad5363.css.map": "/TRIMS-HOME/static/css/main.7cad5363.css.map",
+    "main.810c6295.js.map": "/TRIMS-HOME/static/js/main.810c6295.js.map",
     "787.8efd8012.chunk.js.map": "/TRIMS-HOME/static/js/787.8efd8012.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.ed11fe62.js"
+    "static/css/main.7cad5363.css",
+    "static/js/main.810c6295.js"
   ]
 }

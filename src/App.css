@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -9,14 +11,14 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 10s linear;
   }
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -30,9 +32,19 @@
 
 @keyframes App-logo-spin {
   from {
-    transform: rotate(0deg);
+    transform: rotate(0);
   }
   to {
     transform: rotate(360deg);
   }
+}
+
+.body-text {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  outline-style: solid;
+  align-items: center;
+  justify-content: center;
 }
