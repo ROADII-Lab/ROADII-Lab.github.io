@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.3d20bca4.css",
-    "main.js": "/static/js/main.5bad91ab.js",
-    "static/js/787.512dd3f2.chunk.js": "/static/js/787.512dd3f2.chunk.js",
-    "index.html": "/index.html",
-    "main.3d20bca4.css.map": "/static/css/main.3d20bca4.css.map",
-    "main.5bad91ab.js.map": "/static/js/main.5bad91ab.js.map",
-    "787.512dd3f2.chunk.js.map": "/static/js/787.512dd3f2.chunk.js.map"
+    "main.css": "/TRIMS-HOME/static/css/main.3d20bca4.css",
+    "main.js": "/TRIMS-HOME/static/js/main.411235bb.js",
+    "static/js/787.dd0bed8d.chunk.js": "/TRIMS-HOME/static/js/787.dd0bed8d.chunk.js",
+    "index.html": "/TRIMS-HOME/index.html",
+    "main.3d20bca4.css.map": "/TRIMS-HOME/static/css/main.3d20bca4.css.map",
+    "main.411235bb.js.map": "/TRIMS-HOME/static/js/main.411235bb.js.map",
+    "787.dd0bed8d.chunk.js.map": "/TRIMS-HOME/static/js/787.dd0bed8d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3d20bca4.css",
-    "static/js/main.5bad91ab.js"
+    "static/js/main.411235bb.js"
   ]
 }
