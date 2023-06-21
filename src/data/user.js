@@ -1,13 +1,13 @@
 const INFO = {
 	main: {
 		title: "ITSJPO-TRIMS",
-		name: "Tharindu N.",
-		email: "mail@tharindu.dev",
+		name: "William Chupp",
+		email: "william.chupp@dot.gov",
 		logo: "../dot.png",
 	},
 
 	socials: {
-		github: "https://github.com/",
+		github: "https://github.com/ITSJPO-TRIMS/",
 	},
 
 	homepage: {

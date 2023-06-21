@@ -4,17 +4,14 @@ import { Helmet } from "react-helmet";
 import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-	faTwitter,
 	faGithub,
-	faStackOverflow,
-	faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 
 import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
 import Dataset from "../components/homepage/dataset";
-import Works from "../components/homepage/works";
+// import Works from "../components/homepage/works";
 import AllProjects from "../components/usecases/allProjects";
 
 import INFO from "../data/user";
@@ -108,39 +105,14 @@ const Homepage = () => {
 									{INFO.homepage.description}
 								</div>
 							</div>
-
 							
 						</div>
-
-						<div className="homepage-socials">
-							
-							<a
-								href={INFO.socials.github}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faGithub}
-									className="homepage-social-icon"
-								/>
-							</a>
-							<a
-								href={`mailto:${INFO.main.email}`}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faMailBulk}
-									className="homepage-social-icon"
-								/>
-							</a>
-						</div>
-						<div className="homepage-projects">
-							<div className="subtitle">Highlighted Use Cases</div>
-							<AllProjects />
-						</div>
-
 						<div className="homepage-after-title">
+							<div className="homepage-projects">
+								<div className="subtitle">Highlighted Use Cases</div>
+								<AllProjects />
+							</div>
+
 							<div className="homepage-datasets">
 								<div className="subtitle">Datasets</div>
 								{myDatasets.slice(0, 2).map((dataset, index) => (
@@ -160,6 +132,29 @@ const Homepage = () => {
 						</div>
 
 
+					</div>
+				<div className="homepage-socials">
+						
+						<a
+							href={INFO.socials.github}
+							target="_blank"
+							rel="noreferrer"
+						>
+							<FontAwesomeIcon
+								icon={faGithub}
+								className="homepage-social-icon"
+							/>
+						</a>
+						<a
+							href={`mailto:${INFO.main.email}`}
+							target="_blank"
+							rel="noreferrer"
+						>
+							<FontAwesomeIcon
+								icon={faMailBulk}
+								className="homepage-social-icon"
+							/>
+						</a>
 					</div>
 					<div className="page-footer">
 						<Footer />
