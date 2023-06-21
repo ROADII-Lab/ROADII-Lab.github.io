@@ -35,8 +35,9 @@
 
 .homepage-welcome-text {
 	width: 85% !important;
-	font-weight: bold;
+	font-weight: 500;
 	padding-top: 30px;
+	text-justify: distribute;
 }
 
 .homepage-first-area-right-side {

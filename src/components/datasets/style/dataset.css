@@ -42,9 +42,9 @@
 
 .dataset-description {
 	padding-top: 10px;
-	font-size: 12px;
+	font-size: 14px;
 	color: var(--secondary-color);
-	font-weight: 480;
+	font-weight: 600;
 	line-height: 25px;
 }
 

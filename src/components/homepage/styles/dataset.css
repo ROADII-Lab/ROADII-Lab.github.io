@@ -35,7 +35,8 @@
 .homepage-dataset-description {
 	opacity: 1;
 	color: var(--secondary-color);
-	font-size: 12px;
+	font-size: 15px;
+	font-weight: 500;
 	line-height: 1.5;
 }
 

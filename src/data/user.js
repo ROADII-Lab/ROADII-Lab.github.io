@@ -13,7 +13,7 @@ const INFO = {
 	homepage: {
 		title: "Transportation Research Information Management System (TRIMS)",
 		description:
-			"TRIMS is developed by the USDOT's Intelligent Transportion Systems Joint Program Office to provide information and resources on advanced data analytics use cases in transportation. As data analytics techniques continually advance, state and local agencies need to understand the use cases to which these techniques apply, how they can be implemented or operationalized, and how to weigh the benefits of different options. The TRIMS system provides information to help transportion practitioners make their transportation systems safer and more efficient.",
+			"TRIMS (Transportation Resource for Advanced Data Analytics) has been developed by the Intelligent Transportation Systems Joint Program Office of the United States Department of Transportation (USDOT) with the purpose of disseminating comprehensive information and resources pertaining to advanced data analytics use cases within the transportation domain. Given the continuous evolution of data analytics techniques, it is imperative for state and local agencies to gain a profound understanding of the relevant use cases, their implementation and operationalization possibilities, and the comparative benefits of various options. The TRIMS system serves as an invaluable resource, empowering transportation practitioners to enhance the safety and efficiency of their transportation systems.",
 	},
 
 	about: {
