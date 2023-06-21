@@ -29,6 +29,14 @@
 
 .homepage-subtitle {
 	width: 85% !important;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.homepage-welcome-text {
+	width: 85% !important;
+	font-weight: bold;
+	padding-top: 30px;
 }
 
 .homepage-first-area-right-side {
@@ -70,8 +78,8 @@
 }
 
 .homepage-projects {
-	flex-basis: 300px;
-	padding-top: 40px;
+	flex-basis: 350px;
+	padding-top: 30px;
 }
 
 .homepage-datasets {

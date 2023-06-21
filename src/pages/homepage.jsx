@@ -101,7 +101,7 @@ const Homepage = () => {
 									{INFO.homepage.title}
 								</div>
 
-								<div className="subtitle homepage-subtitle">
+								<div className="homepage-welcome-text">
 									{INFO.homepage.description}
 								</div>
 							</div>
@@ -109,12 +109,12 @@ const Homepage = () => {
 						</div>
 						<div className="homepage-after-title">
 							<div className="homepage-projects">
-								<div className="subtitle">Highlighted Use Cases</div>
+								<div className="homepage-subtitle">Highlighted Use Cases</div>
 								<AllProjects />
 							</div>
 
 							<div className="homepage-datasets">
-								<div className="subtitle">Datasets</div>
+								<div className="homepage-subtitle">Datasets</div>
 								{myDatasets.slice(0, 2).map((dataset, index) => (
 									<div
 										className="homepage-dataset"
