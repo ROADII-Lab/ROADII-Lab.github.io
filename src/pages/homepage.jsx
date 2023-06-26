@@ -133,7 +133,7 @@ const Homepage = () => {
 
 
 					</div>
-				<div className="homepage-socials">
+					<div className="homepage-socials">
 						
 						<a
 							href={INFO.socials.github}
