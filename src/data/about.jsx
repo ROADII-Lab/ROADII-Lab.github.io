@@ -56,6 +56,9 @@ const AboutContent = () => {
             <li>Training materials that educate stakeholders and pass on lessons learned from evaluation and solution development process</li>
             <li>Itemized and annotated list of stakeholder relationships</li>
         </div>
+        <div className="About-Paragraph">
+            
+        </div>
         </React.Fragment>
     );
 };
