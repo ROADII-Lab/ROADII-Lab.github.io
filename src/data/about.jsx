@@ -96,6 +96,22 @@ const AboutContent = () => {
             Federal and State partners who can facilitate technology and knowledge transfer. To get in 
             touch with the ROADII team, see our <a href="/contact">contacts</a> page.
         </div>
+        <h2>ROADII-Lab Internal Development</h2>
+        <div className="About-Paragraph">
+            Internally, ROADII Lab developers are currently working on example solutions to specific 
+            use cases as prioritized by the Intake team. Advanced data analytics and AI model development
+            require access to compute capabilities that are often best suited to working within a cloud 
+            environment. Therefore, the ROADII team conducts the majority of their development activities in
+            the USDOT's Secure Data Commons (SDC). This analysis and data storage platform gives DOT developers
+            access to cloud resources they would otherwise not be able to use. It also provides access to 
+            deployment and testing capabilities so ROADII and the solutions in TRIMS can help educate state 
+            and local users on the most efficient technologies and associated configurations for 
+            production-level systems. As the ROADII organization parterns with outside stakeholder groups, 
+            
+        </div>
+        <div className="About-Paragraph">
+            For more information about the Secure Data Commons, see the SDC homepage here: <a href="https://www.transportation.gov/data/secure">https://www.transportation.gov/data/secure</a>
+        </div>
         </React.Fragment>
     );
 };
