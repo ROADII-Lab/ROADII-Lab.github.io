@@ -43,7 +43,7 @@ const UseCases = () => {
 						</div>
 
 						<div className="subtitle projects-subtitle">
-							ROADII Lab 
+							The following use cases are currently under exploration or development in ROADII-Lab. Choose a use case to view the repository, code, and demonstrations to learn more! 
 						</div>
 
 						<div className="projects-list">

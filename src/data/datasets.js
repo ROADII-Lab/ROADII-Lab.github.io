@@ -34,8 +34,22 @@ function dataset_1() {
 		body: (
 			<React.Fragment>
 				<div className="dataset-content">
-					<div className="paragraph">Waze dataset</div>
-				</div>
+					<div className="paragraph">
+						The Waze roadway incident and jams data are provided by the Waze for Cities Program (previously known as the Connected Citizens Program). These data are provided free by Waze to public agencies around the world, partly in exchange for participation in provisioning roadway closure data, and partly as a public service by Waze. Waze provides real-time, anonymous, proprietary incident and slow-down information directly from drivers, aggregate these data, and provides them to public agencies. Public agency partners provide real-time and advance information on construction, crash, and road closure data. 
+						</div>
+						<div className="paragraph">
+							<p></p>
+						The data are provided nationally across the US to the USDOT through a Memorandum of Understanding with the USDOT Chief Data Officer. The data have been stored in the USDOT Secure Data Commons (SDC) since spring 2017.
+						The stream of data from the Waze API is in JSON format, with an API call every 2 minutes. The structure of these data and fields are described in the Waze Traffic Data Specification Document, Version 2.7.1. 
+						</div>
+						<div className="paragraph">
+							<p></p>
+						In SDC, these data are housed in a Redshift relational database. There are three main tables that are used in data analysis: alerts, jams, and jam point sequences. </div>
+						</div>
+						<div className="paragraph">
+							<p></p>
+							Read more about the Waze archive here: <a href="https://www.transportation.gov/content/safety-data-initiative">https://www.transportation.gov/content/safety-data-initiative</a>
+						</div>
 			</React.Fragment>
 		),
 	};
@@ -88,7 +102,7 @@ function dataset_3() {
 		],
 		body: (
 			<React.Fragment>
-				<h1>Data Hub Data</h1>
+				<h2>Read more about the ITS Datahub and associated datasets at <a href="https://www.its.dot.gov/data/"> https://www.its.dot.gov/data/</a></h2>
 			</React.Fragment>
 		),
 	};

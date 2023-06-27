@@ -44,8 +44,11 @@ const Contact = () => {
 						</div>
 
 						<div className="subtitle contact-subtitle">
-							Thank you for your interest in the ROADII program.
+							Thank you for your interest in the ROADII program. Please reach out to the ITS JPO 
+							data program leads for more information about how to get involved in ROADII. We are
+							always looking for new participants!
 						</div>
+
 					</div>
 					<div className="page-footer">
 						<Footer />
