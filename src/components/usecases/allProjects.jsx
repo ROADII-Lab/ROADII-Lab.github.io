@@ -7,6 +7,10 @@ import INFO from "../../data/user";
 import "./styles/allProjects.css";
 
 const AllProjects = () => {
+
+	const truncate = (input, max_length) =>
+		input?.length > max_length ? `${input.substring(0, max_length)}...` : input;
+
 	return (
 		<div className="all-projects-container">
 			{INFO.projects.map((project, index) => (
@@ -14,7 +18,7 @@ const AllProjects = () => {
 					<Project
 						logo={project.logo}
 						title={project.title}
-						description={project.description}
+						description={truncate(project.description, 150)}
 						linkText={project.linkText}
 						link={project.link}
 					/>

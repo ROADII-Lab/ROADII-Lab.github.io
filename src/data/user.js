@@ -32,10 +32,10 @@ const INFO = {
 		{
 			title: "Traffic Incident Detection",
 			description:
-				"",
+				"This TRIMS project repository provides code and documentation for exploring techniques to detect traffic incidents, assess roadway network vulnerabilities, and improve incident response rates for state DOTs and traffic management centers.",
 			logo: "../R25Icon.png",
 			linkText: "View Project",
-			link: "https://google.com",
+			link: "https://github.com/ITSJPO-TRIMS/R25-IncidentDetection",
 		},
 	],
 };

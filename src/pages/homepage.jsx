@@ -25,6 +25,9 @@ const Homepage = () => {
 	const [logoSize, setLogoSize] = useState(80);
 	const [oldLogoSize, setOldLogoSize] = useState(80);
 
+	const truncate = (input, max_length) =>
+      	input?.length > max_length ? `${input.substring(0, max_length)}...` : input;
+
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
@@ -114,7 +117,7 @@ const Homepage = () => {
 							</div>
 
 							<div className="homepage-datasets">
-								<div className="homepage-subtitle">Datasets</div>
+								<div className="homepage-subtitle">Highlighted Datasets</div>
 								{myDatasets.slice(0, 2).map((dataset, index) => (
 									<div
 										className="homepage-dataset"
@@ -123,7 +126,7 @@ const Homepage = () => {
 										<Dataset
 											key={(index + 1).toString()}
 											title={dataset().title}
-											description={dataset().description}
+											description={truncate(dataset().description, 400)}
 											link={"/dataset/" + (index + 1)}
 										/>
 									</div>

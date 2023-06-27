@@ -76,7 +76,12 @@ function dataset_3() {
 		date: "2017-2023",
 		title: "ITS JPO DataHub",
 		description:
-		`The U.S. Department of Transportation ITS JPO's portal for open-access data.`,
+		`ITS DataHub is a centralized platform for finding open and reusable ITS research projects and data management tools. 
+		It provides real-time access to research datasets and associated documentation, reducing the time required for insights. 
+		Users can contribute by hosting new data, creating data stories and visualizations, downloading data, or suggesting improvements. 
+		ITS DataHub supports third-party research, application development, and harmonization across similar collections. 
+		It offers a wide range of datasets created with ITS technologies, including connected vehicle messages, automated vehicle data, 
+		trajectories, field test data, sensor data, connected equipment data, weather data, and application messages.`,
 		style: ``,
 		keywords: [
 			
@@ -89,6 +94,29 @@ function dataset_3() {
 	};
 }
 
-const myDatasets = [dataset_1, dataset_2, dataset_3];
+function dataset_4() {
+	return {
+		date: "2007-2018",
+		title: "SHRP2 Dataset",
+		description:
+		`
+		The second Strategic Highway Research Program (SHRP2) has conducted over 100 research projects to tackle key issues like aging infrastructure, 
+		congestion, and safety. These projects have resulted in effective solutions that will enhance the planning, operation, maintenance, and safety of American roadways.
+		
+		Authorized by SAFETEA-LU, SHRP2 builds upon the achievements of the first SHRP, which introduced innovations like Superpave for durable roads 
+		and technologies for snow and ice management. MAP-21 has provided additional funding for implementation activities.`,
+		style: ``,
+		keywords: [
+			
+		],
+		body: (
+			<React.Fragment>
+				<h1>SHRP2 Data</h1>
+			</React.Fragment>
+		),
+	};
+}
+
+const myDatasets = [dataset_1, dataset_2, dataset_3, dataset_4];
 
 export default myDatasets;
