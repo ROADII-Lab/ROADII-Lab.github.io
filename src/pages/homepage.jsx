@@ -104,6 +104,9 @@ const Homepage = () => {
 								<div className="homepage-welcome-text">
 									{INFO.homepage.description}
 								</div>
+								<div className="homepage-welcome-text">
+									{INFO.homepage.description2}
+								</div>
 							</div>
 							
 						</div>
