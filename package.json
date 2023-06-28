@@ -2,7 +2,7 @@
 	"name": "trimshomepage",
 	"version": "1.1.0",
 	"description": "ITS JPO TRIMS Home page",
-	"homepage": "/",
+	"homepage": "https://itsjpo-trims.github.io/",
 	"license": "MIT",
 	"private": true,
 	"dependencies": {
