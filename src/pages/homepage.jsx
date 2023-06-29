@@ -84,7 +84,7 @@ const Homepage = () => {
 				<div className="homepage-image-container">
 					<div className="homepage-image-wrapper">
 						<img
-							src="DataScienceStockPhoto.jpg"
+							src="technology_themed_background_graphic_3392150867.png"
 							alt="about"
 							className="homepage-image"
 						/>
