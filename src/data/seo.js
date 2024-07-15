@@ -2,7 +2,7 @@ const SEO = [
 	{
 		page: "home",
 		description:
-			"TRIMS is a repository of advanced data analytics resources for transportation use cases developed by DOT's Intelligent Transportation Systems Joint Program Office.",
+			"ROADII-Lab provides this repository of advanced data analytics resources for transportation use cases developed by DOT's Intelligent Transportation Systems Joint Program Office.",
 		keywords: ["JPO", "ITS", "Data", "AI", "ML", "Analytics", "Transportation"],
 	},
 
